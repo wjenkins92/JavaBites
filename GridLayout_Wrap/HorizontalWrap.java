@@ -12,7 +12,7 @@ import javax.swing.WindowConstants;
 
 public class UserInterface implements ComponentListener
 {
-	private static JFrame mainFrame = new JFrame("Character Explorer");
+	private static JFrame mainFrame = new JFrame();
 	private static GridLayout gridLayout = new GridLayout(0, 10);
 
 	public UserInterface()
